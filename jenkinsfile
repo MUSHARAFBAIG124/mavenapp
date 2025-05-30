@@ -30,7 +30,7 @@ pipeline {
             steps {
                 // Start the JAR application
                 sh 'java -jar target/MyMavenApp8-1.0-SNAPSHOT.jar'
-'
+
             }
         }
 
